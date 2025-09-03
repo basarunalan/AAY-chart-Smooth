@@ -19,5 +19,5 @@ fun App() {
 //    PieChartSample()
 
     /** Sample of Radar Chart **/
-//    RadarChartSample()
+    RadarChartSample()
 }

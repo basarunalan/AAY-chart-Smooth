@@ -25,7 +25,7 @@ internal fun DrawScope.drawPolygonShape(
         drawPath(
             path,
             color = polygon.style.borderColor,
-            style = Stroke(polygon.style.borderStrokeWidth),
+            style = Stroke(polygon.style.borderStrokeWidth, cap = polygon.style.borderStrokeCap),
             alpha = polygon.style.borderColorAlpha
         )
         drawPath(
